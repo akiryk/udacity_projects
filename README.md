@@ -1,7 +1,5 @@
-# This is where I'll store my coursework for Udacity
+# Udacity Front End Dev Nanodegree Program
 
 ###First Project
-The first project is simply an "about me" page.
+The first project is simply an "about me" page. Find my work in FE Nanodegree Project 0.
 
-###Second Project
-Not done yet...
