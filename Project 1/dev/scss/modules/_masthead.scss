@@ -1,0 +1,36 @@
+.masthead {
+  margin: 1em;
+  text-align: center;
+}
+
+.logo {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.site-title {
+  margin: 0;
+}
+
+@media screen and (min-width: $tablet){
+
+  .masthead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .site-title {
+    text-align: right;
+  }
+
+  .site-tagline {
+    color: #999;
+    text-align: right;
+  }
+}
