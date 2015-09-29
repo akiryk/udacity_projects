@@ -1,0 +1,66 @@
+.masthead-wrapper {
+  background-color: white;
+}
+.masthead {
+  margin: 0 auto;
+  text-align: center;
+  max-width: $max-width;
+}
+
+.logo {
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding-bottom: 1em;
+}
+
+.site-title {
+  font-size: 1.25em;
+  margin-right: 0.25em;
+  line-height: 1;
+}
+
+.site-tagline {
+  color: #555;
+  font-size: 1.25em;
+  line-height: 1;
+}
+
+@media screen and (min-width: $tablet){
+
+  .title-wrapper {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .masthead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 1em 0;
+    padding: 1em 0;
+  }
+
+  .logo {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .site-title {
+    font-size: 2em;
+    line-height: 1.4;
+    margin: 0;
+    text-align: right;
+  }
+
+  .site-tagline {
+    color: #999;
+    text-align: right;
+  }
+}

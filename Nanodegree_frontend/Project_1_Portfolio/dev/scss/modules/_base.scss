@@ -1,0 +1,48 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+img {
+  background: red;
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background: black;
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
+
+figure {
+  margin: 0 0 1em 0;
+}
+
+figcaption {
+  background: black;
+  color: #666;
+  text-align: right;
+  padding: 0.5em 1em 0 1em;
+  transition: color 0.3s;
+}
+
+
+@media screen and (min-width: $tablet){
+
+  figcaption {
+    padding: 0.5em 0.5em 0 0.5em;
+  }
+
+}

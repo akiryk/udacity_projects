@@ -1,0 +1,54 @@
+.expand-icon {
+  color: #666;
+  font-weight: 900;
+  display: block;
+  padding: 5px 5px;
+  border: 1px solid #666;
+  line-height: 10px;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  float: right;
+  margin-left: .5em;
+  transition: all 0.3s;
+}
+
+.portfolio-item {
+  cursor: pointer;
+}
+
+.portfolio-item:hover .expand-icon,
+.portfolio-item:hover figcaption{
+  color: #ccc;
+  border-color: #ccc;
+}
+
+.hidden-text {
+  color: #aaa;
+  line-height: 1.4;
+  opacity: 0.0;
+  font-weight: 300;
+  background: rgba(0,0,0,0.75);
+  position: absolute;
+  bottom: 1.5em;
+  width: 100%;
+  padding: 1em;
+  transition: opacity .3s;
+}
+
+.hidden-text.expanded {
+  opacity: 1.0;
+}
+
+.portfolio-item {
+  position: relative;
+}
+
+
+@media screen and (min-width: $tablet){
+
+  .hidden-text {
+    padding: 1em 0 1.5em 0.5em;
+  }
+
+}
